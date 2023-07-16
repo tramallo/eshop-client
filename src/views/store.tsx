@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Button from '../components/button';
 import SearchIcon from '@mui/icons-material/Search';
 import ProductCard from '../components/product-card';
-import { fetchProducts } from '../app/api-service';
+import { fetchProducts } from '../services/api-service';
 
 export type Product = {
 	id: string,
