@@ -1,0 +1,36 @@
+@import '../components/components.scss';
+@import '../views/views.scss';
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    @include button();
+}
+
+.productCard {
+    @include productCard();
+}
+
+.dashboard {
+    @include dashboard();
+}
+
+.store {
+    @include store();
+}
+
+.profile {
+    @include profile();
+}
+
+.sellProduct {
+    @include sellProduct();
+}

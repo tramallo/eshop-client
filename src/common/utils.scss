@@ -1,0 +1,11 @@
+@mixin columns($columns...) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-auto-flow: row;
+}
+
+@mixin rows($rows...) {
+    display: grid;
+    grid-template-rows: $rows;
+    grid-auto-flow: column;
+}
