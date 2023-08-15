@@ -1,17 +1,17 @@
-import './app.scss';
-import StoreMallDirectoryOutlinedIcon from '@mui/icons-material/StoreMallDirectoryOutlined';
-import { useAuth0 } from '@auth0/auth0-react';
-import Button from '../components/button';
-import Dashboard from '../components/dashboard';
-import SellProduct from '../views/sell-product';
-import Store from '../views/store';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import StoreMallDirectoryOutlinedIcon from '@mui/icons-material/StoreMallDirectoryOutlined';
 import SellOutlinedIcon from '@mui/icons-material/SellOutlined';
 import AccountBoxOutlinedIcon from '@mui/icons-material/AccountBoxOutlined';
 import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
-import Profile from '../views/profile';
-import Cart from '../views/cart';
+import { useAuth0 } from '@auth0/auth0-react';
+import './app.scss';
+import Button from './components/button';
+import Dashboard from './components/dashboard';
+import SellProduct from './views/sell-product';
+import Store from './views/store';
+import Profile from './views/profile';
+import Cart from './views/cart';
 
 function App() {
 	const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
